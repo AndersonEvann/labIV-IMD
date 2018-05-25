@@ -1,0 +1,54 @@
+\hypertarget{lista_8h}{}\section{Referência do Arquivo lista.\+h}
+\label{lista_8h}\index{lista.\+h@{lista.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$memory$>$}\\*
+Gráfico de dependência de inclusões para lista.\+h\+:
+% FIG 0
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com este arquivo\+:
+% FIG 1
+\subsection*{Componentes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classNode}{Node$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em Implementacao da classe \hyperlink{classNode}{Node}. \end{DoxyCompactList}\item 
+class \hyperlink{classNode}{Node$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em Implementacao da classe \hyperlink{classNode}{Node}. \end{DoxyCompactList}\item 
+class \hyperlink{classListaLigada}{Lista\+Ligada$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em Implementacao da classe \hyperlink{classListaLigada}{Lista\+Ligada}. \end{DoxyCompactList}\item 
+class \hyperlink{classListaLigada}{Lista\+Ligada$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em Implementacao da classe \hyperlink{classListaLigada}{Lista\+Ligada}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::ostream \& \hyperlink{lista_8h_aa0b9bf5be3a02ea1084444540e90a13c}{operator$<$$<$} (std\+::ostream \&, \hyperlink{classNode}{Node}$<$ T $>$ const \&)
+\begin{DoxyCompactList}\small\item\em Declaracao antecipada da classe. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::ostream \& \hyperlink{lista_8h_a14973d9507eaf00fd788d679db182526}{operator$<$$<$} (std\+::ostream \&, \hyperlink{classListaLigada}{Lista\+Ligada}$<$ T $>$ const \&)
+\begin{DoxyCompactList}\small\item\em Declaracao antecipada da classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Funções}
+\index{lista.\+h@{lista.\+h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!lista.\+h@{lista.\+h}}
+\subsubsection[{\texorpdfstring{operator$<$$<$(std\+::ostream \&, Node$<$ T $>$ const \&)}{operator<<(std::ostream &, Node< T > const &)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ std\+::ostream \& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream \&}]{o, }
+\item[{{\bf Node}$<$ T $>$ const \&}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{lista_8h_aa0b9bf5be3a02ea1084444540e90a13c}{}\label{lista_8h_aa0b9bf5be3a02ea1084444540e90a13c}
+
+
+Declaracao antecipada da classe. 
+
+Definicao antecipada do template para o operador de insercao \index{lista.\+h@{lista.\+h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!lista.\+h@{lista.\+h}}
+\subsubsection[{\texorpdfstring{operator$<$$<$(std\+::ostream \&, Lista\+Ligada$<$ T $>$ const \&)}{operator<<(std::ostream &, ListaLigada< T > const &)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ std\+::ostream \& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream \&}]{o, }
+\item[{{\bf Lista\+Ligada}$<$ T $>$ const \&}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{lista_8h_a14973d9507eaf00fd788d679db182526}{}\label{lista_8h_a14973d9507eaf00fd788d679db182526}
+
+
+Declaracao antecipada da classe. 
+
+Definicao antecipada do template para o operador de insercao 

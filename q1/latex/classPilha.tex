@@ -1,0 +1,134 @@
+\hypertarget{classPilha}{}\section{Referência da Template de Classe Pilha$<$ T $>$}
+\label{classPilha}\index{Pilha$<$ T $>$@{Pilha$<$ T $>$}}
+
+
+{\ttfamily \#include $<$pilha.\+h$>$}
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPilha_a3113638095289f155d7c76db4b2da3df}{Pilha} (int n\+\_\+capacidade=50)
+\begin{DoxyCompactList}\small\item\em Qtde Max de elementos. \end{DoxyCompactList}\item 
+\hyperlink{classPilha_a0c931f49acc17ce09b29c2d589d4fd0b}{$\sim$\+Pilha} ()
+\item 
+bool \hyperlink{classPilha_a117c819eb1bff51136b7c72b486df0fc}{empty} ()
+\item 
+bool \hyperlink{classPilha_ae9204010a17accede9ebd6e92c084c15}{full} ()
+\item 
+T \& \hyperlink{classPilha_adb80016e40c990aa1074f879b1ef7b89}{top} ()
+\item 
+int \hyperlink{classPilha_a3f80cb860cfa58f459d7f484c9045879}{push} (T novo)
+\item 
+int \hyperlink{classPilha_a720f99ec51a9d2e3ae2e59ab78365b84}{pop} ()
+\item 
+int \hyperlink{classPilha_aae0f3f465788cefc53f9cadadc0e1fe0}{size} ()
+\end{DoxyCompactItemize}
+\subsection*{Atributos Privados}
+\begin{DoxyCompactItemize}
+\item 
+T $\ast$ \hyperlink{classPilha_ac9472d83396997925a13a5e84cb9d3cc}{m\+\_\+elementos}
+\item 
+int \hyperlink{classPilha_a2a1fc8a625fb4f2405d042561efd8c27}{m\+\_\+tamanho}
+\begin{DoxyCompactList}\small\item\em Elementos armazenados na pilha. \end{DoxyCompactList}\item 
+int \hyperlink{classPilha_ac10684488abab7128da4058260a24083}{m\+\_\+capacidade}
+\begin{DoxyCompactList}\small\item\em Qtde de elementos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+\subsubsection*{template$<$typename T$>$\\*
+class Pilha$<$ T $>$}
+
+\begin{DoxyAuthor}{Autor}
+Teobaldo 
+\end{DoxyAuthor}
+
+
+\subsection{Construtores \& Destrutores}
+\index{Pilha@{Pilha}!Pilha@{Pilha}}
+\index{Pilha@{Pilha}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{Pilha(int n\+\_\+capacidade=50)}{Pilha(int n_capacidade=50)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Pilha}$<$ T $>$\+::{\bf Pilha} (
+\begin{DoxyParamCaption}
+\item[{int}]{n\+\_\+capacidade = {\ttfamily 50}}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_a3113638095289f155d7c76db4b2da3df}{}\label{classPilha_a3113638095289f155d7c76db4b2da3df}
+
+
+Qtde Max de elementos. 
+
+\index{Pilha@{Pilha}!````~Pilha@{$\sim$\+Pilha}}
+\index{````~Pilha@{$\sim$\+Pilha}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{$\sim$\+Pilha()}{~Pilha()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Pilha}$<$ T $>$\+::$\sim${\bf Pilha} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_a0c931f49acc17ce09b29c2d589d4fd0b}{}\label{classPilha_a0c931f49acc17ce09b29c2d589d4fd0b}
+
+
+\subsection{Métodos}
+\index{Pilha@{Pilha}!empty@{empty}}
+\index{empty@{empty}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{empty()}{empty()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf Pilha}$<$ T $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_a117c819eb1bff51136b7c72b486df0fc}{}\label{classPilha_a117c819eb1bff51136b7c72b486df0fc}
+\index{Pilha@{Pilha}!full@{full}}
+\index{full@{full}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{full()}{full()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf Pilha}$<$ T $>$\+::full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_ae9204010a17accede9ebd6e92c084c15}{}\label{classPilha_ae9204010a17accede9ebd6e92c084c15}
+\index{Pilha@{Pilha}!pop@{pop}}
+\index{pop@{pop}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{pop()}{pop()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Pilha}$<$ T $>$\+::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_a720f99ec51a9d2e3ae2e59ab78365b84}{}\label{classPilha_a720f99ec51a9d2e3ae2e59ab78365b84}
+\index{Pilha@{Pilha}!push@{push}}
+\index{push@{push}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{push(\+T novo)}{push(T novo)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Pilha}$<$ T $>$\+::push (
+\begin{DoxyParamCaption}
+\item[{T}]{novo}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_a3f80cb860cfa58f459d7f484c9045879}{}\label{classPilha_a3f80cb860cfa58f459d7f484c9045879}
+\index{Pilha@{Pilha}!size@{size}}
+\index{size@{size}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{size()}{size()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Pilha}$<$ T $>$\+::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_aae0f3f465788cefc53f9cadadc0e1fe0}{}\label{classPilha_aae0f3f465788cefc53f9cadadc0e1fe0}
+\index{Pilha@{Pilha}!top@{top}}
+\index{top@{top}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{top()}{top()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T \& {\bf Pilha}$<$ T $>$\+::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPilha_adb80016e40c990aa1074f879b1ef7b89}{}\label{classPilha_adb80016e40c990aa1074f879b1ef7b89}
+
+
+\subsection{Atributos}
+\index{Pilha@{Pilha}!m\+\_\+capacidade@{m\+\_\+capacidade}}
+\index{m\+\_\+capacidade@{m\+\_\+capacidade}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{m\+\_\+capacidade}{m_capacidade}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Pilha}$<$ T $>$\+::m\+\_\+capacidade\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classPilha_ac10684488abab7128da4058260a24083}{}\label{classPilha_ac10684488abab7128da4058260a24083}
+
+
+Qtde de elementos. 
+
+\index{Pilha@{Pilha}!m\+\_\+elementos@{m\+\_\+elementos}}
+\index{m\+\_\+elementos@{m\+\_\+elementos}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{m\+\_\+elementos}{m_elementos}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T$\ast$ {\bf Pilha}$<$ T $>$\+::m\+\_\+elementos\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classPilha_ac9472d83396997925a13a5e84cb9d3cc}{}\label{classPilha_ac9472d83396997925a13a5e84cb9d3cc}
+\index{Pilha@{Pilha}!m\+\_\+tamanho@{m\+\_\+tamanho}}
+\index{m\+\_\+tamanho@{m\+\_\+tamanho}!Pilha@{Pilha}}
+\subsubsection[{\texorpdfstring{m\+\_\+tamanho}{m_tamanho}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf Pilha}$<$ T $>$\+::m\+\_\+tamanho\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classPilha_a2a1fc8a625fb4f2405d042561efd8c27}{}\label{classPilha_a2a1fc8a625fb4f2405d042561efd8c27}
+
+
+Elementos armazenados na pilha. 
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pilha_8h}{pilha.\+h}\end{DoxyCompactItemize}

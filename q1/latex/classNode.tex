@@ -1,0 +1,129 @@
+\hypertarget{classNode}{}\section{Referência da Template de Classe Node$<$ T $>$}
+\label{classNode}\index{Node$<$ T $>$@{Node$<$ T $>$}}
+
+
+Implementacao da classe \hyperlink{classNode}{Node}.  
+
+
+
+
+{\ttfamily \#include $<$lista.\+h$>$}
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNode_a0ac1d44cfe588be564acf25485029bd8}{Node} ()
+\item 
+\hyperlink{classNode_ae00c7c803c5b2fea3b2270050da4a9db}{Node} (T \+\_\+valor)
+\item 
+\hyperlink{classNode_ae923d0417581dd19784d55b901f0f7f0}{$\sim$\+Node} ()
+\item 
+\hyperlink{classNode_af67f09d322ec9a1fc2852ff98f0a4558}{Node} (T num, shared\+\_\+ptr$<$ \hyperlink{classNode}{Node} $>$ next\+Ptr)
+\item 
+T \hyperlink{classNode_aac9fa54166ff3aa269de6da8f9484f66}{get\+Valor} ()
+\item 
+shared\+\_\+ptr$<$ \hyperlink{classNode}{Node}$<$ T $>$ $>$ \hyperlink{classNode_a85f16577c580d8fdc246f350c5a6141a}{get\+Next} ()
+\item 
+void \hyperlink{classNode_a73ec6e581244130c98a26ed2935cf472}{set\+Next} (shared\+\_\+ptr$<$ \hyperlink{classNode}{Node}$<$ T $>$$>$ next\+Ptr)
+\end{DoxyCompactItemize}
+\subsection*{Atributos Privados}
+\begin{DoxyCompactItemize}
+\item 
+T \hyperlink{classNode_ae7133548e1ffddfd6bab32e684094dbe}{valor}
+\item 
+shared\+\_\+ptr$<$ \hyperlink{classNode}{Node}$<$ T $>$ $>$ \hyperlink{classNode_a26c14ea34fca953ae3f847245c3e9caa}{proximo}
+\end{DoxyCompactItemize}
+\subsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{classNode_af4dd23ddeacb247749f1f4fc7e22d96f}{operator} (std\+::ostream \&o, \hyperlink{classNode}{Node}$<$ T $>$ const \&n)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+\subsubsection*{template$<$typename T$>$\\*
+class Node$<$ T $>$}
+
+Implementacao da classe \hyperlink{classNode}{Node}. 
+
+Para permitir sobrecarregar o operador de insercao numa classe template como friend eh preciso adicionar o trecho de codigo a seguir 
+
+\subsection{Construtores \& Destrutores}
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\subsubsection[{\texorpdfstring{Node()}{Node()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Node}$<$ T $>$\+::{\bf Node} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_a0ac1d44cfe588be564acf25485029bd8}{}\label{classNode_a0ac1d44cfe588be564acf25485029bd8}
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\subsubsection[{\texorpdfstring{Node(\+T \+\_\+valor)}{Node(T _valor)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Node}$<$ T $>$\+::{\bf Node} (
+\begin{DoxyParamCaption}
+\item[{T}]{\+\_\+valor}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_ae00c7c803c5b2fea3b2270050da4a9db}{}\label{classNode_ae00c7c803c5b2fea3b2270050da4a9db}
+\index{Node@{Node}!````~Node@{$\sim$\+Node}}
+\index{````~Node@{$\sim$\+Node}!Node@{Node}}
+\subsubsection[{\texorpdfstring{$\sim$\+Node()}{~Node()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Node}$<$ T $>$\+::$\sim${\bf Node} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_ae923d0417581dd19784d55b901f0f7f0}{}\label{classNode_ae923d0417581dd19784d55b901f0f7f0}
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\subsubsection[{\texorpdfstring{Node(\+T num, shared\+\_\+ptr$<$ Node $>$ next\+Ptr)}{Node(T num, shared_ptr< Node > nextPtr)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Node}$<$ T $>$\+::{\bf Node} (
+\begin{DoxyParamCaption}
+\item[{T}]{num, }
+\item[{shared\+\_\+ptr$<$ {\bf Node}$<$ T $>$ $>$}]{next\+Ptr}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_af67f09d322ec9a1fc2852ff98f0a4558}{}\label{classNode_af67f09d322ec9a1fc2852ff98f0a4558}
+
+
+\subsection{Métodos}
+\index{Node@{Node}!get\+Next@{get\+Next}}
+\index{get\+Next@{get\+Next}!Node@{Node}}
+\subsubsection[{\texorpdfstring{get\+Next()}{getNext()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ shared\+\_\+ptr$<$ {\bf Node}$<$ T $>$ $>$ {\bf Node}$<$ T $>$\+::get\+Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_a85f16577c580d8fdc246f350c5a6141a}{}\label{classNode_a85f16577c580d8fdc246f350c5a6141a}
+\index{Node@{Node}!get\+Valor@{get\+Valor}}
+\index{get\+Valor@{get\+Valor}!Node@{Node}}
+\subsubsection[{\texorpdfstring{get\+Valor()}{getValor()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T {\bf Node}$<$ T $>$\+::get\+Valor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_aac9fa54166ff3aa269de6da8f9484f66}{}\label{classNode_aac9fa54166ff3aa269de6da8f9484f66}
+\index{Node@{Node}!set\+Next@{set\+Next}}
+\index{set\+Next@{set\+Next}!Node@{Node}}
+\subsubsection[{\texorpdfstring{set\+Next(shared\+\_\+ptr$<$ Node$<$ T $>$$>$ next\+Ptr)}{setNext(shared_ptr< Node< T >> nextPtr)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Node}$<$ T $>$\+::set\+Next (
+\begin{DoxyParamCaption}
+\item[{shared\+\_\+ptr$<$ {\bf Node}$<$ T $>$$>$}]{next\+Ptr}
+\end{DoxyParamCaption}
+)}\hypertarget{classNode_a73ec6e581244130c98a26ed2935cf472}{}\label{classNode_a73ec6e581244130c98a26ed2935cf472}
+
+
+\subsection{Amigas e Funções Relacionadas}
+\index{Node@{Node}!operator@{operator}}
+\index{operator@{operator}!Node@{Node}}
+\subsubsection[{\texorpdfstring{operator}{operator}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ std\+::ostream\& operator (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream \&}]{o, }
+\item[{{\bf Node}$<$ T $>$ const \&}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\hypertarget{classNode_af4dd23ddeacb247749f1f4fc7e22d96f}{}\label{classNode_af4dd23ddeacb247749f1f4fc7e22d96f}
+
+
+\subsection{Atributos}
+\index{Node@{Node}!proximo@{proximo}}
+\index{proximo@{proximo}!Node@{Node}}
+\subsubsection[{\texorpdfstring{proximo}{proximo}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ shared\+\_\+ptr$<${\bf Node}$<$T$>$ $>$ {\bf Node}$<$ T $>$\+::proximo\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classNode_a26c14ea34fca953ae3f847245c3e9caa}{}\label{classNode_a26c14ea34fca953ae3f847245c3e9caa}
+\index{Node@{Node}!valor@{valor}}
+\index{valor@{valor}!Node@{Node}}
+\subsubsection[{\texorpdfstring{valor}{valor}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T {\bf Node}$<$ T $>$\+::valor\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classNode_ae7133548e1ffddfd6bab32e684094dbe}{}\label{classNode_ae7133548e1ffddfd6bab32e684094dbe}
+
+
+A documentação para esta classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lista_8h}{lista.\+h}\end{DoxyCompactItemize}
