@@ -1,0 +1,46 @@
+\hypertarget{rpn_8cpp}{}\section{Referência do Arquivo rpn.\+cpp}
+\label{rpn_8cpp}\index{rpn.\+cpp@{rpn.\+cpp}}
+
+
+Programa resolve uma expressão pos-\/fixa.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include \char`\"{}pilha.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}lista.\+h\char`\"{}}\\*
+Gráfico de dependência de inclusões para rpn.\+cpp\+:
+% FIG 0
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{rpn_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}{main} (int argc, char const $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+Programa resolve uma expressão pos-\/fixa. 
+
+\begin{DoxyAuthor}{Autor}
+Anderson Evangelista da Silva lista e pilha foram implementados por Teobaldo. 
+\end{DoxyAuthor}
+\begin{DoxySince}{Desde}
+20/05/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Data}
+26/05/2018 
+\end{DoxyDate}
+
+
+\subsection{Funções}
+\index{rpn.\+cpp@{rpn.\+cpp}!main@{main}}
+\index{main@{main}!rpn.\+cpp@{rpn.\+cpp}}
+\subsubsection[{\texorpdfstring{main(int argc, char const $\ast$argv[])}{main(int argc, char const *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char const $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{rpn_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}{}\label{rpn_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}
+caso necessite fazer outros testes basta alterar o conteudo de pos\+Fixa.\+push abaixo.
+
+Abaixo seguem os testes para obter o resultado da expressão passada. Uma nova pilha é criada para armazenar e receber o valor das operações.

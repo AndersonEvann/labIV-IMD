@@ -1,15 +1,20 @@
+/**
+* @author Teobaldo
+*/
+
 #include <iostream>
 #include <memory>
 
 using namespace std;
 
-/* Implementacao da classe Node */
+/** @brief Implementacao da classe Node */
 
-// Para permitir sobrecarregar o operador de insercao
-// numa classe template como friend eh preciso adicionar
-// o trecho de codigo a seguir
-template <typename T> class Node; // Declaracao antecipada da classe
-template <typename T> // Definicao antecipada do template para o operador de insercao
+/** @details Para permitir sobrecarregar o operador de insercao
+*	numa classe template como friend eh preciso adicionar
+*	o trecho de codigo a seguir
+*/
+template <typename T> class Node; /** @brief Declaracao antecipada da classe */
+template <typename T> /** @brief Definicao antecipada do template para o operador de insercao */
 std::ostream& operator<<( std::ostream&, Node<T> const & );
 // --
 
@@ -66,13 +71,14 @@ std::ostream& operator<< (std::ostream &o, Node<T> const &n) {
 	return o;
 }
 
-/* Implementacao da classe ListaLigada */
+/** @brief Implementacao da classe ListaLigada */
 
-/* Para permitir sobrecarregar o operador de insercao
-   numa classe template como friend eh preciso adicionar
-   o trecho de codigo a seguir */
-template <typename T> class ListaLigada; // Declaracao antecipada da classe
-template <typename T> // Definicao antecipada do template para o operador de insercao
+/** @details Para permitir sobrecarregar o operador de insercao
+*   numa classe template como friend eh preciso adicionar
+*   o trecho de codigo a seguir
+*/
+template <typename T> class ListaLigada; /** @brief Declaracao antecipada da classe */
+template <typename T> /** @brief Definicao antecipada do template para o operador de insercao */
 std::ostream& operator<<( std::ostream&, ListaLigada<T> const & );
 // --
 

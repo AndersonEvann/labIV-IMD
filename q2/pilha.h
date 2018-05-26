@@ -1,3 +1,6 @@
+/**
+* @author Teobaldo
+*/
 #ifndef Pilha_H
 #define Pilha_H
 
@@ -7,9 +10,9 @@
 template <typename T>
 class Pilha {
 private:
-	T* m_elementos;   // Elementos armazenados na pilha
-	int m_tamanho;    // Qtde de elementos
-	int m_capacidade; // Qtde Max de elementos
+	T* m_elementos;   /** @brief Elementos armazenados na pilha */
+	int m_tamanho;    /** @brief Qtde de elementos */
+	int m_capacidade; /** @brief Qtde Max de elementos */
 public:
 	Pilha (int n_capacidade = 50);
 	~Pilha ();
@@ -79,4 +82,4 @@ int Pilha<T>::size ()
 	return m_tamanho;
 }
 
-#endif // End of Pilha_H
+#endif /** @brief End of Pilha_H */
